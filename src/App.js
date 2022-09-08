@@ -19,7 +19,7 @@ function App() {
     <ChakraProvider theme={theme}>
       <Box
         textAlign="center"
-        h="100vh"
+        maxH="100vh"
         display="flex"
         alignItems="center"
         justifyContent="center"
