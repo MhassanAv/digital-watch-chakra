@@ -20,6 +20,7 @@ function App() {
       <Box
         textAlign="center"
         maxH="100vh"
+        minH="100vh"
         display="flex"
         alignItems="center"
         justifyContent="center"
