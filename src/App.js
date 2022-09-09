@@ -17,6 +17,7 @@ function App() {
 
   return (
     <ChakraProvider theme={theme}>
+      <body>
       <Box
         textAlign="center"
         maxH="100vh"
@@ -26,7 +27,7 @@ function App() {
         justifyContent="center"
         flexDir="column"
       >
-        <ColorModeSwitcher alignSelf="center" justifySelf="center" />
+        <ColorModeSwitcher />
         <VStack
           fontFamily="Public Sans"
           bgGradient={`linear(to-l, hsl(${270 + counter}, 67%, 47%), hsl(${
@@ -42,6 +43,7 @@ function App() {
           </Text>
         </VStack>
       </Box>
+      </body>
     </ChakraProvider>
   );
 }
